@@ -1,0 +1,63 @@
+body{
+    background: #0e1117;
+    color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding-top: 60px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #00bcd4;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 80%;
+  max-width: 600px;
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  background-color: #1a1f27;
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 6px;
+  color: #0e1117;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #173d42;
+}
+
+#result {
+  white-space: pre-wrap;
+  background-color: #1a1f27;
+  padding: 15px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  margin-top: 20px;
+  border-left: 4px solid #00bcd4;
+}
+
+.safe {
+  border-left-color: #4caf50;
+}
+
+.phishing {
+  border-left-color: #f44336;
+}
